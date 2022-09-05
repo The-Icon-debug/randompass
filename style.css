@@ -1,0 +1,59 @@
+.prim-box {
+    /*position: absolute;*/
+    width: 500px;
+    height: 500px;
+    /*left: auto;*/
+    top: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ecfdf5;
+    padding: 60px 18px 0 18px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.heading,
+.rand-par {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.heading {
+    color: #2b283a;
+}
+
+.rand-par {
+    color: #10b981;
+}
+
+.insec-par {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6b7280;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#pass-one,
+#pass-two {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5def92;
+}
